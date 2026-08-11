@@ -42,7 +42,7 @@ Clean HR Dataset
 
 ---
 
-# 2. Step 1 — Profile the Source
+# 2. Step 1: Profile the Source
 
 **Input**
 
@@ -66,7 +66,7 @@ The profiling stage establishes the transformation requirements before cleaning 
 
 ---
 
-# 3. Step 2 — Deduplicate Employee Records
+# 3. Step 2: Deduplicate Employee Records
 
 ### Rule
 
@@ -96,7 +96,7 @@ The project should therefore not claim that "keeping the first row" is universal
 
 ---
 
-# 4. Step 3 — Standardize Department
+# 4. Step 3: Standardize Department
 
 ### Source
 
@@ -146,7 +146,7 @@ A standardized department dimension prevents the same business unit from being s
 
 ---
 
-# 5. Step 4 — Standardize Gender
+# 5. Step 4: Standardize Gender
 
 The source contains inconsistent representations.
 
@@ -171,7 +171,7 @@ A title is not an authoritative demographic field. For production use, the trans
 
 ---
 
-# 6. Step 5 — Standardize Employment Type
+# 6. Step 5: Standardize Employment Type
 
 The final output contains:
 
@@ -187,7 +187,7 @@ The transformation consolidates inconsistent source representations into these c
 
 ---
 
-# 7. Step 6 — Transform Date Fields
+# 7. Step 6: Transform Date Fields
 
 Primary date fields:
 
@@ -218,7 +218,7 @@ Ambiguous values require:
 
 ---
 
-# 8. Step 7 — Transform Salary
+# 8. Step 7: Transform Salary
 
 The source salary field contains representations such as:
 
@@ -254,7 +254,7 @@ This should be flagged for source/business validation rather than automatically 
 
 ---
 
-# 9. Step 8 — Normalize Missing Values
+# 9. Step 8: Normalize Missing Values
 
 Placeholder values are converted into proper nulls.
 
@@ -278,7 +278,7 @@ does not necessarily mean a bad record; an active employee normally has no exit 
 
 ---
 
-# 10. Step 9 — Apply Data Types
+# 10. Step 9: Apply Data Types
 
 The output uses appropriate representations for:
 
@@ -300,7 +300,7 @@ without repeatedly repairing the source.
 
 ---
 
-# 11. Step 10 — Validate the Output
+# 11. Step 10: Validate the Output
 
 The final dataset is checked for:
 

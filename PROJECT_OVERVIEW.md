@@ -1,6 +1,6 @@
 # Project at a glance
 
-**HR Data Quality & Transformation — Power Query Case Study**
+**HR Data Quality & Transformation: Power Query Case Study**
 Self-directed project, built around a synthetic HR dataset styled after a real operational export.
 
 **Records:** 1,530 → 1,500 (30 duplicates removed)
@@ -21,7 +21,7 @@ Self-directed project, built around a synthetic HR dataset styled after a real o
 
 ## What the cleaned file gives you
 
-A 1,500-row, 20-column dataset with unique employee IDs, ten canonical departments, parsed dates, numeric salaries, and honestly-documented nulls — ready to drop into Power BI, Tableau, or Excel without any further repair work.
+A 1,500-row, 20-column dataset with unique employee IDs, ten canonical departments, parsed dates, numeric salaries, and honestly-documented nulls. Ready to drop into Power BI, Tableau, or Excel without any further repair work.
 
 It supports headcount reporting, payroll and compensation analysis, attrition and tenure tracking, performance review analysis, workforce planning, and compliance reporting on diversity and employment type.
 
@@ -35,7 +35,7 @@ It supports headcount reporting, payroll and compensation analysis, attrition an
 | Consistency | 62.0% | 98.0% |
 | Accuracy | 72.0% | 100.0% |
 
-Full methodology and the honest limitations behind these numbers are in [`docs/DATA_QUALITY_SCORECARD.md`](docs/DATA_QUALITY_SCORECARD.md) — a clean dataset isn't automatically a factually correct one, and that document explains where the line is.
+Full methodology and the honest limitations behind these numbers are in [`docs/DATA_QUALITY_SCORECARD.md`](docs/DATA_QUALITY_SCORECARD.md). A clean dataset isn't automatically a factually correct one, and that document explains where the line is.
 
 ## Files in this repo
 
