@@ -122,4 +122,4 @@ If the source file changes, the documented steps are meant to be re-run, not reb
 
 Built by **Daniel Olatunji**, Data Analyst working across fintech, SaaS, and e-commerce data. I write more about data quality, Power BI, and analytics workflows regularly.
 
-Questions about the approach or want to talk data? Reach me at oluwafikayore@gmail.com.
+Questions about the approach or want to talk data? Reach me at danolatunji25@gmail.com.
